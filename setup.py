@@ -39,7 +39,7 @@ setup(
     url="https://www.example.com/",
     author="Biola Oyeniyi",
     author_email="b33sama@gmail.com",
-    install_requires=["httpx>=0.10.0"],
+    install_requires=["httpx>=0.10.0", "asgiref==3.2.3"],
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Django",

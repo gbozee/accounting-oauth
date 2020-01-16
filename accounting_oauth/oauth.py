@@ -118,7 +118,7 @@ class AccountingOauth:
         return {}
 
     def token_header_params(self):
-        return {}
+        return {"Content-type": "application/json"}
 
     async def _get_token_details(self, grant_type, param):
         options = {

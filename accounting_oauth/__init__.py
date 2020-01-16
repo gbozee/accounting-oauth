@@ -7,3 +7,4 @@ from accounting_oauth.oauth import (
     StorageInterface,
     request_helper,
 )
+from asgiref.sync import sync_to_async, async_to_sync
